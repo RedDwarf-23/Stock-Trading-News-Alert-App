@@ -18,7 +18,7 @@ AUTH_TOKEN = os.environ.get("AUTH_TOKEN")
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-PLACEHOLDER_VALUE = 5
+PLACEHOLDER_VALUE = 5 #Trial API for stocks have limnited API calls so a placeholder can be used to test the code and SMS notification
 
 news_params = {
     "q": COMPANY_NAME,
